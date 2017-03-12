@@ -1,0 +1,51 @@
+﻿body {
+  font-family:'Special Elite', monospace;
+  color:rgb(90,150,210);
+  background-color:rgb(50,60,75);
+}
+
+h1, h2 {
+  text-align:center;
+  margin: 20px 0 25px 0;
+}
+
+#description {
+  margin:1px;
+  font-size:1.2em;
+  float:left;
+}
+
+ol {
+  list-style-image: url('Paw-print.png');
+  list-style-type: disc;
+}
+
+li {
+  margin: 0 0 20px 20px;
+  position:relative;
+  top:30px;
+}
+
+#Mia {
+  margin:20px 20px 0 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(50,60,75);
+  border-radius: 5%;
+  height: 469px;
+  width: 284px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+  }
+
+/*
+#float-clear {
+  display: flex;
+*/
+@media screen and (max-width: 600px) {
+  li {
+    color:white;
+  }
+  #description {
+    float:right:
+  }
+}
